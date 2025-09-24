@@ -144,7 +144,7 @@ body {
 .h2,
 .h3 { font-family: var(--ff-source-sans-pro); }
 
-.btn {
+.gradient-btn {
   background-image: var(--gradient-2);
   background-size: 200%;
   color: var(--white);
@@ -155,7 +155,7 @@ body {
   transition: var(--transition-2);
 }
 
-.btn:is(:hover, :focus) { background-position: right; }
+.gradient-btn:is(:hover, :focus) { background-position: right; }
 
 .w-100 { width: 100%; }
 
@@ -210,7 +210,7 @@ body {
 
 /** header **/
 
-.header .btn { display: none; }
+.header .gradient-btn { display: none; }
 
 .header {
   --color: var(--white);
@@ -329,8 +329,8 @@ body {
 /* hero */
 
 .hero {
-  background-image: url("../images/hero-bg-bottom.png"),
-                    url("../images/hero-bg.png"),
+  background-image: url("../images/hero-bg-bottom.png"), /*herodaki ana şekil*/
+                    url("../images/hero-bg.png"), /*footerdaki yuvarlak,*/
                     var(--gradient-1);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: -280px bottom, center, center;
@@ -619,6 +619,11 @@ body {
   max-width: 100%;       /* sayfa dışına taşmasın */
 }
 
+
+
+
+
+
 .social-list {
   display: flex;
   justify-content: flex-start;
@@ -733,7 +738,7 @@ body {
 
   /*header*/
 
-  .header .btn {
+  .header .gradient-btn {
     display: flex;
     align-items: center;
     gap: 5px;
@@ -870,7 +875,7 @@ body {
     margin-inline-start: auto;
   }
 
-  .header .btn { margin-inline-start: 0; }
+  .header .gradient-btn { margin-inline-start: 0; }
 
   .navbar-list {
     display: flex;
