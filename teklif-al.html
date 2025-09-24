@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
   <!-- custom css link-->
-  <link rel="stylesheet" href="./assets/css/sade.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
 
   
 
@@ -85,7 +85,7 @@
 
       </nav>
 
-      <a href="#" class="btn">
+      <a href="#" class="btn gradient-btn">
         <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
 
         <span>Teklif Al</span>
@@ -125,7 +125,7 @@
             at purus.
             </p>
 
-            <button class="btn">BİZE ULAŞIN</button>
+            <button class="btn gradient-btn">BİZE ULAŞIN</button>
 
         </div>
 
@@ -138,8 +138,68 @@
 
     <!--hero son -->
 
+    <!-- Teklif Form -->
 
+    <form>
+    <div class="input-group">
+        <span class="input-group-text">Ad Soyad</span>
+        <input type="text" aria-label="First name" class="form-control">
+        <input type="text" aria-label="Last name" class="form-control">
+      </div>
 
+      <div class="input-group mb-3">
+        <span class="input-group-text">+</span>
+        <span class="input-group-text">90</span>
+        <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+    </div>
+    
+
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+
+      <select class="form-select" aria-label="Default select example">
+        <option selected>Hizmet Türü</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+
+      <div class="mb-3">
+      <label class="form-label">Proje hk</label>
+      <textarea class="form-control" aria-label="With textarea"></textarea>
+      </div>
+
+      <div class="input-group mb-3">
+        <input type="file" class="form-control" id="inputGroupFile02">
+      </div>
+
+      <select class="form-select" aria-label="Default select example">
+        <option selected>Proje bütçesi</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+
+      <select class="form-select" aria-label="Default select example">
+        <option selected>Bize nereden ulaştınız</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+      
+
+      <label class="form-label check-label">Bu formu doldurarak, iletişim bilgilerinizin üçüncü kişilerle paylaşılmayacağını, ancak HelloAjans’ın sizinle iletişime geçmek ve pazarlama faaliyetlerinde bu bilgileri kullanmak üzere izin verdiğinizi kabul ediyor musunuz?</label>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Evet, onaylıyorum.</label>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Gönder</button>
+    </form>
+    <!-- Teklif Form -->
 
 
 
